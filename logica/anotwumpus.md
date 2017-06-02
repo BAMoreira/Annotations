@@ -1,4 +1,4 @@
-##O Mundo Wumpus
+## O Mundo Wumpus
 
 O mundo Wumpus é uma caverna que consiste de salas conectadas por passagens. À espreita em algum lugar da taverna está o Wumpus, um monstro fétido devorador de arqueiros agentes inteligentes que invadem a sua sala. O Wumpus pode ser morto pelo agente, mas este só tem uma flecha!
 
@@ -27,7 +27,7 @@ Este é um excelente ambiente para teste de programação lógica.
 * O agente deve estar sem percepções na primeira casa.
 * É um jogo de turnos. Uma vez você joga, na outra, o Wumpus.
 
-####Ações
+#### Ações
 
 * goforward (anda pra frente).
 * turnright (vira para a direita, ou seja, subtraindo 90 graus).
@@ -37,7 +37,7 @@ Este é um excelente ambiente para teste de programação lógica.
 * sit (passar a vez).
 * climb (sair da caverna. Só funciona na casa 1x1).
 
-####Percepções
+#### Percepções
 
 [Stench, Breeze, Glitter, Bump, Scream, Rustle]
 Tradução: [Fedor, Vento, Brilho, Trombada, Grito, Ruido]
@@ -46,12 +46,12 @@ Tradução: [Fedor, Vento, Brilho, Trombada, Grito, Ruido]
 * Grito é a percepção que o mundo manda para o agente quando o Wumpus morre. O fedor continua.
 * O morcego não se move: fica sempre no mesmo lugar.
 
-####Sistema Novo
+#### Sistema Novo
 
 O mapa do Wumpus foi atualizado, para um dodecaedro. Cada sala tem três portas, ocupando, cada uma, uma das quatro direções.
 Pesquisar Wumpus-dodecahedron-map.png.
 
-####Configuração
+#### Configuração
 
 * O agente começa com 0 pontos.
 * Cada vez que você fizer um movimento, perde um ponto.
@@ -66,7 +66,7 @@ Pesquisar Wumpus-dodecahedron-map.png.
 * Na versão 1, usaremos a configuração stander, na qual o Wumpus não se move.
 * Na versão 2, usaremos a configuração walker, na qual o Wumpus só se move se entrar na caverna dele, ou se ele ouvir um tiro.
 
-####Versões
+#### Versões
 
 v1.0-Grid, stander.
 v2.0-Dodeca, walker.
