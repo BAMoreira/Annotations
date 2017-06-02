@@ -68,7 +68,6 @@ Pesquisar Wumpus-dodecahedron-map.png.
 
 #### Versões
 
-v1.0-Grid, stander.
-v2.0-Dodeca, walker.
-
+* v1.0-Grid, stander.
+* v2.0-Dodeca, walker.
 
